@@ -32,17 +32,15 @@ body{
     font-size: 30px;
     font-weight: 600;
     color: #ededed;
-    font-weight: 600;
     text-decoration: none;
 }
 .logo::before{
-    content: "";
+    content: '';
     position: absolute;
-    top: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background: #036186;
+    background: #a9b5b9;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
@@ -61,7 +59,7 @@ body{
 
 .home{
     height: 100vh;
-    background: url("../images/cbbae.jpeg") no-repeat;
+    background: url("../images/homeee.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -127,6 +125,19 @@ color: #036186;
     width: 345px;
     height: 50px;
     justify-content: space-between;
+    position: relative;
+}
+.home-content .btn-box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  /*   background: #036186; */
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.9s;
+    z-index: 2;
 }
 .btn-box a{
     position: relative;
@@ -183,6 +194,18 @@ color: #00abf0;
     justify-content: space-between;
   
 }
+.home-face::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #036186;
+    animation: showRight 1s ease forwards;
+    animation-delay: 2.5s;
+    z-index: 2;
+}
 .home-face a{
     position: relative;
     display: inline-flex;
@@ -224,12 +247,33 @@ color: #00abf0;
     /* width: 550px; */
     /* height: 100%; */
     /* background: transparent; */
-    /* transition: 3s; */
+    /* transition: 3s;
+    animation: manipActiveHover .1s forwards;
+    animation-delay:4s;
+    pointer-events:none; */
 /* } */
 /* .home-imgHover:hover{ */
     /* background: rgb(197, 182, 182); */
     /* opacity: .8; */
 /* } */
+
+/* .home-content h3::after{ */
+    /* content: ""; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+    /* width: 120%; */
+    /* height: 100%; */
+    /* background: #036186; */
+    /* animation: showRight 1s ease forwards; */
+    /* animation-delay: 100; */
+/* }
+@keyframes manipActiveHover{
+    100%{
+        pointer-events:auto;
+
+     */
+
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
     100%{
