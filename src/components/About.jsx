@@ -22,9 +22,10 @@ const About = () => {
 <div className='home-content'>
   <h1>Hi, I'm <br /> Christiana Agbai</h1>
   <h3>Full Stack Web Developer</h3>
-  <p>Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Esse porro aliquid nostrum,<br /> doloribus! Molestiae officia minima facere.</p>
+  <p>A special welcome to you. <br /> I am a well grounded Fullstack Web Developer <br />I can transform your ideas into reality. <br /> I always deliver the best.<br /> Reach out to me 
+  &#128525; &#128151;  </p>
   <div className="btn-box">
-   <a href="#">Contact Me</a>
+   <a href="tel:7010917437">Contact Me</a>
   <a href="#">Let's Talk</a>
   </div>
 </div>
